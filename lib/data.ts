@@ -6,6 +6,39 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+import {SiPytorch} from "react-icons/si"
+import {FaPython} from "react-icons/fa"
+
+import {SiScikitlearn} from "react-icons/si"
+import {TbChartArcs} from "react-icons/tb"
+
+import {BiLogoPostgresql} from "react-icons/bi"
+import {SiJavascript} from "react-icons/si"
+import {SiTypescript} from "react-icons/si"
+
+import {TbBrandNextjs} from "react-icons/tb"
+import {FaNodeJs} from "react-icons/fa"
+import {BsGit} from "react-icons/bs"
+//SiTailwindcss
+
+import{SiTailwindcss} from "react-icons/si"
+import{SiPrisma} from "react-icons/si"
+import{SiMongodb} from "react-icons/si"
+import{SiRedux} from "react-icons/si"
+import{SiGraphql} from "react-icons/si"
+import{SiDjango} from "react-icons/si"
+import{SiFramer} from "react-icons/si"
+import{SiRaspberrypi} from "react-icons/si"
+
+import{SiEspressif} from "react-icons/si"
+import{SiArduino} from "react-icons/si"
+import{SiFigma} from "react-icons/si"
+import{SiLinux} from "react-icons/si"
+import{TbBrandThreejs} from "react-icons/tb"
+
+
+
+
 export const links = [
   {
     name: "Home",
@@ -32,6 +65,7 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
+
 
 export const experiencesData = [
   {
@@ -85,6 +119,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+
+  "Pytorch",
+  "Python",
+  "Scikit Learn",
   "HTML",
   "CSS",
   "JavaScript",
@@ -104,4 +142,129 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+
+] as const;
+
+
+export const skillsData2 = [
+  {
+    title: "Python",
+    icon: React.createElement(FaPython),
+  },
+
+  {
+    title: "Pytorch",
+    icon: React.createElement(SiPytorch),
+  },
+
+  {
+    title: "Scikit Learn",
+    icon: React.createElement(SiScikitlearn),
+  },
+
+  {
+    title: "Matplotlib",
+    icon: React.createElement(TbChartArcs),
+  },
+
+  {
+    title: "Postgresql",
+    icon: React.createElement(BiLogoPostgresql),
+  },
+
+  {
+    title: "Javascript",
+    icon: React.createElement(SiJavascript),
+  },
+
+  {
+    title: "Typescript",
+    icon: React.createElement(SiTypescript),
+  },
+
+  {
+    title: "React",
+    icon: React.createElement(FaReact),
+  },
+
+  {
+    title: "Nextjs",
+    icon: React.createElement(TbBrandNextjs),
+  },
+
+  {
+    title: "Threejs",
+    icon: React.createElement(TbBrandThreejs)
+  },
+
+  {
+    title: "NodeJs",
+    icon: React.createElement(FaNodeJs),
+  },
+
+  {
+    title: "Git",
+    icon: React.createElement(BsGit),
+  },
+
+  {
+    title: "Tailwindcss",
+    icon: React.createElement(SiTailwindcss),
+  },
+
+  {
+    title: "Prisma",
+    icon: React.createElement(SiPrisma),
+  },
+
+  {
+    title: "Mongodb",
+    icon: React.createElement(SiMongodb),
+  },
+
+  {
+    title: "Redux",
+    icon: React.createElement(SiRedux),
+  },
+
+  {
+    title: "Graphql",
+    icon: React.createElement(SiGraphql),
+  },
+
+  {
+    title: "Django",
+    icon: React.createElement(SiDjango),
+  },
+
+  {
+    title: "Framer Motion",
+    icon: React.createElement(SiFramer)
+  },
+
+  {
+    title: "Raspberrypi",
+    icon: React.createElement(SiRaspberrypi)
+  },
+
+  {
+    title: "Espressif",
+    icon: React.createElement(SiEspressif)
+  },
+
+  {
+    title: "Arduino",
+    icon: React.createElement(SiArduino)
+  },
+
+  {
+    title: "Figma",
+    icon: React.createElement(SiFigma)
+  },
+
+  {
+    title: "Linux",
+    icon: React.createElement(SiLinux)
+  },
+
 ] as const;

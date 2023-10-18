@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData } from "@/lib/data";
+import { skillsData2 } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -31,7 +31,7 @@ export default function Skills() {
     >
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
+        {skillsData2.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -43,9 +43,15 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {skill}
+           {/* {skill.icon} {skill.title}  */}
+           <div className="flex items-center"> {/* Wrap skill.icon and skill.title in a div */}
+              {skill.icon} &nbsp; {skill.title}
+            </div>
+           
           </motion.li>
+          
         ))}
+
       </ul>
     </section>
   );

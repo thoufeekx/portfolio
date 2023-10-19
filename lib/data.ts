@@ -69,51 +69,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Junior Project Assisstant",
+    location: "Msigma Gokulam Ltd",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Researching, Developing and Implimenting new engineering project Ideas for Undergrad Academic students.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 Nov - 2023 Aug",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "React Native Developer",
+    location: "Freelance, Startup",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developing and maintaining the android application using React Native and firebase. Mentored Co developers, facilitating their growth in react development and introducing best practices to maintain codebase integrity.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 July- 2022 Sep",
+  },
+  {
+    title: "Data Scientist | Model Developer",
+    location: "Freelance, Startup",
+    description:
+      "Applied fundamental data science principles to implement the project's core objective, classifying accident occurrences. Ensured that code was not only functional but also highly readable and well-documented. Notebooks included titles, explanations, and comments for clear understanding.",
+    icon: React.createElement(SiPytorch),
+    date: "March 2022 - April 2022",
+  },
+  {
+    title: "Data Analyst",
+    location: "Freelance, Client",
+    description:
+      "Applied statistical methods to uncover patterns and relationships with the given data, including hypothesis testing, regression analysis, and descriptive statistics.",
+    icon: React.createElement(SiScikitlearn),
+    date: "Aug 2021 - Jan 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Food Delivery Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Users can explore and order delicious foods from restaurants based on location. They can also explore new and exciting cuisines.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Accident Detection",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "The website analyze input photos/video for accidents by passing them through a YOLO model and focus on enhancing safety of drivers.",
+    tags: ["Pytorch", "Python", "Flask", "Deep Learning"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Customer Segmentation",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "In the customer segmentation project, clustering algorithms were applied and delivered actionable insights for tailored marketing and enhanced customer experiences.",
+    tags: ["Scikit Learn", "Machine Learning", "Python"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;

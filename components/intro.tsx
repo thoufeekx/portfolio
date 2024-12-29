@@ -67,13 +67,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Thoufeek.</span> I develop {" "}
-        <span className="font-bold">Full-stack </span> and{" "}
-        <span className="font-bold">Machine Learning Application</span>. I enjoy
-         <span> building and intergating websites with machine learning capabilities</span>. My focus is{" "}
-        Deep Learning { }<span className="underline">(Pytorch)</span>{ } & React <span className="underline"> (Next.js) </span>
+        <span className="font-bold">Oi World, I'm Thoufeek.</span> Cloud Development and Operations student at{" "}
+        <span className="font-bold">Algonquin College </span> ('25). I am deeply passionate about combining the power of {" "}
+        <span className="font-bold">cloud computing with machine learning</span>.
+         <span> My journey spans community building, mentoring, and hands-on experience in cutting-edge technologies to deliver exceptional results</span>. 
+         {/* My focus is{" "}
+        Machine Learning { }<span className="underline">(Pytorch)</span>{ } & Microsoft Azure <span className="underline"> (Next.js) </span> */}
       </motion.h1>
 
+   
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
